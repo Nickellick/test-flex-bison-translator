@@ -25,6 +25,5 @@ extern YYSTYPE yylval;
 (\)){1}                             yylval = strdup(yytext); return CBRACKET;
 (\:){1}                             yylval = strdup(yytext); return COLON;
 (\;){1}                             yylval = strdup(yytext); return SEMICOLON;
-\n
-[ \t]+;
+[ \t\r\n]+                                                 ;
 %%

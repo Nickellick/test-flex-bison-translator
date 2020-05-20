@@ -21,6 +21,5 @@
 (\)){1}                             return CBRACKET;
 (\:){1}                             return COLON;
 (\;){1}                             return SEMICOLON;
-\n;
-[ \t]+;
+[ \t\r\n]+                          ;
 %%
