@@ -14,27 +14,15 @@ This is very simple flex-bison translator for non-existing languages. Main reaso
 
 ## How to use
 Actually, this is pretty easy. Just launch
-```
-./translator.sh -t <file_to_translate>
-```
-for translation
+`
+./translator.sh -t <file_to_translate>` for translation
+`
+./translator.sh -s <file_to_check>` for syntax checking
+`
+./translator.sh -l <file_to_analyze>` for translation
+`
+./translator.sh -c` for compilation.
 
-```
-./translator.sh -s <file_to_check>
-```
-for syntax checking
-
-```
-./translator.sh -l <file_to_analyze>
-```
-for translation
-
-```
-./translator.sh -c
-```
-for compilation
 More information at
-```
-./translator.sh -h
-```
-help
+`
+./translator.sh -h` help
